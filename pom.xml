@@ -81,6 +81,8 @@
                 <extensions>true</extensions>
                 <configuration>
                     <testFramework>JUNIT5</testFramework>
+                    <testMode>MOCKMVC</testMode>
+                    <baseClassForTests>com.example.sbtestlab.StudentControllerBaseClass</baseClassForTests>
                 </configuration>
             </plugin>
             <plugin>
